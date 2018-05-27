@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F5F222B20BB7BA10028788F /* DownloadableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F222920BB7BA10028788F /* DownloadableImage.swift */; };
+		9F5F222C20BB7BA10028788F /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F222A20BB7BA10028788F /* Webservice.swift */; };
 		9FBE7A232077C764006ABFAD /* AEWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBE7A192077C764006ABFAD /* AEWebService.framework */; };
 		9FBE7A282077C764006ABFAD /* AEWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE7A272077C764006ABFAD /* AEWebServiceTests.swift */; };
 		9FBE7A2A2077C764006ABFAD /* AEWebService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBE7A1C2077C764006ABFAD /* AEWebService.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +25,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F5F222920BB7BA10028788F /* DownloadableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadableImage.swift; sourceTree = "<group>"; };
+		9F5F222A20BB7BA10028788F /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		9FBE7A192077C764006ABFAD /* AEWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AEWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FBE7A1C2077C764006ABFAD /* AEWebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEWebService.h; sourceTree = "<group>"; };
 		9FBE7A1D2077C764006ABFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				9FBE7A1C2077C764006ABFAD /* AEWebService.h */,
+				9F5F222A20BB7BA10028788F /* Webservice.swift */,
+				9F5F222920BB7BA10028788F /* DownloadableImage.swift */,
 				9FBE7A1D2077C764006ABFAD /* Info.plist */,
 			);
 			path = AEWebService;
@@ -148,6 +154,7 @@
 				TargetAttributes = {
 					9FBE7A182077C764006ABFAD = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					9FBE7A212077C764006ABFAD = {
 						CreatedOnToolsVersion = 9.3;
@@ -194,6 +201,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F5F222C20BB7BA10028788F /* Webservice.swift in Sources */,
+				9F5F222B20BB7BA10028788F /* DownloadableImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +348,7 @@
 		9FBE7A2E2077C764006ABFAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -355,6 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.AllanEvans.AEWebService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +374,7 @@
 		9FBE7A2F2077C764006ABFAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -387,6 +399,7 @@
 		9FBE7A312077C764006ABFAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AEWebServiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,6 +417,7 @@
 		9FBE7A322077C764006ABFAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AEWebServiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
