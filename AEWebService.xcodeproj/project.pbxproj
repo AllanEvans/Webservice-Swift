@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9F5F222B20BB7BA10028788F /* DownloadableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F222920BB7BA10028788F /* DownloadableImage.swift */; };
 		9F5F222C20BB7BA10028788F /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F222A20BB7BA10028788F /* Webservice.swift */; };
+		9FB2E2A120BDA94A001BE8D7 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB2E2A020BDA94A001BE8D7 /* Endpoint.swift */; };
 		9FBE7A232077C764006ABFAD /* AEWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBE7A192077C764006ABFAD /* AEWebService.framework */; };
 		9FBE7A282077C764006ABFAD /* AEWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE7A272077C764006ABFAD /* AEWebServiceTests.swift */; };
 		9FBE7A2A2077C764006ABFAD /* AEWebService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBE7A1C2077C764006ABFAD /* AEWebService.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		9F5F222920BB7BA10028788F /* DownloadableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadableImage.swift; sourceTree = "<group>"; };
 		9F5F222A20BB7BA10028788F /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		9FB2E2A020BDA94A001BE8D7 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		9FBE7A192077C764006ABFAD /* AEWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AEWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FBE7A1C2077C764006ABFAD /* AEWebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEWebService.h; sourceTree = "<group>"; };
 		9FBE7A1D2077C764006ABFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				9FBE7A1C2077C764006ABFAD /* AEWebService.h */,
 				9F5F222A20BB7BA10028788F /* Webservice.swift */,
 				9F5F222920BB7BA10028788F /* DownloadableImage.swift */,
+				9FB2E2A020BDA94A001BE8D7 /* Endpoint.swift */,
 				9FBE7A1D2077C764006ABFAD /* Info.plist */,
 			);
 			path = AEWebService;
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F5F222C20BB7BA10028788F /* Webservice.swift in Sources */,
+				9FB2E2A120BDA94A001BE8D7 /* Endpoint.swift in Sources */,
 				9F5F222B20BB7BA10028788F /* DownloadableImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
