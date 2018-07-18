@@ -8,9 +8,9 @@
 
 import Foundation
 
-class DownloadableImage {
+public class DownloadableImage {
 
-    enum Error: Swift.Error {
+    public enum Error: Swift.Error {
         case invalidURL
         case nilResponse
         case noImageAtURL
@@ -26,7 +26,7 @@ class DownloadableImage {
         self.url = _url
     }
     
-    func getImage(catch throw: @escaping (Swift.Error) -> (), complete: @escaping (UIImage) -> ()) {
+    public func getImage(catch throw: @escaping (Swift.Error) -> (), complete: @escaping (UIImage) -> ()) {
         guard image == nil else {
             complete(image!)
             return
@@ -50,7 +50,7 @@ class DownloadableImage {
         }
     }
     
-    func cancel() {
+    public func cancel() {
         task?.cancel()
     }
     

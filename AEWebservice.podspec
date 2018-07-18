@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "AEWebservice"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "Simple Webservice wrapper around URLRequest for types conforming to Codable protocol"
 
 # This description is used to generate tags and improve search results.

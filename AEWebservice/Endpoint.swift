@@ -17,7 +17,7 @@ public protocol Endpoint {
     
 }
 
-extension Endpoint {
+public extension Endpoint {
     
     var sessionManager: URLSession {
         return URLSession.shared
@@ -25,7 +25,7 @@ extension Endpoint {
     
 }
 
-extension Webservice {
+public extension Webservice {
     
     public func request<T: Encodable>(_ endpoint: Endpoint,
                                       body: T,
