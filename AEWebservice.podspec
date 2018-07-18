@@ -25,10 +25,10 @@ s.summary      = "Simple Webservice wrapper around URLRequest for types conformi
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 s.description  = <<-DESC
-Simple Webservice wrapper around URLRequest for types conforming to Codable protocol
+Simple Webservice wrapper around URLRequest for types conforming to Codable protocol.  Includes Downloadable image class.
 DESC
 
-s.homepage     = "http://github.com/AllanEvans/BinaryTree-Swift"
+s.homepage     = "http://github.com/AllanEvans/Webservice-Swift"
 # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
