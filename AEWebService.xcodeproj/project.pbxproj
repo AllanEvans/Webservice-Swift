@@ -28,6 +28,7 @@
 /* Begin PBXFileReference section */
 		9F5F222920BB7BA10028788F /* DownloadableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadableImage.swift; sourceTree = "<group>"; };
 		9F5F222A20BB7BA10028788F /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		9F8D099320FEE53100E616EA /* AEWebservice.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AEWebservice.podspec; sourceTree = "<group>"; };
 		9FB2E2A020BDA94A001BE8D7 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		9FBE7A192077C764006ABFAD /* AEWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AEWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FBE7A1C2077C764006ABFAD /* AEWebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEWebService.h; sourceTree = "<group>"; };
@@ -59,8 +60,9 @@
 		9FBE7A0F2077C764006ABFAD = {
 			isa = PBXGroup;
 			children = (
-				9FBE7A1B2077C764006ABFAD /* AEWebService */,
-				9FBE7A262077C764006ABFAD /* AEWebServiceTests */,
+				9F8D099320FEE53100E616EA /* AEWebservice.podspec */,
+				9FBE7A1B2077C764006ABFAD /* AEWebservice */,
+				9FBE7A262077C764006ABFAD /* AEWebserviceTests */,
 				9FBE7A1A2077C764006ABFAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +76,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9FBE7A1B2077C764006ABFAD /* AEWebService */ = {
+		9FBE7A1B2077C764006ABFAD /* AEWebservice */ = {
 			isa = PBXGroup;
 			children = (
 				9FBE7A1C2077C764006ABFAD /* AEWebService.h */,
@@ -83,16 +85,16 @@
 				9FB2E2A020BDA94A001BE8D7 /* Endpoint.swift */,
 				9FBE7A1D2077C764006ABFAD /* Info.plist */,
 			);
-			path = AEWebService;
+			path = AEWebservice;
 			sourceTree = "<group>";
 		};
-		9FBE7A262077C764006ABFAD /* AEWebServiceTests */ = {
+		9FBE7A262077C764006ABFAD /* AEWebserviceTests */ = {
 			isa = PBXGroup;
 			children = (
 				9FBE7A272077C764006ABFAD /* AEWebServiceTests.swift */,
 				9FBE7A292077C764006ABFAD /* Info.plist */,
 			);
-			path = AEWebServiceTests;
+			path = AEWebserviceTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
